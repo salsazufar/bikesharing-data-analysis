@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import os
 
 # Membaca file CSV menggunakan Pandas
 all_df = pd.read_csv('all_data.csv')
