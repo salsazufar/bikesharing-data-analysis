@@ -8,6 +8,7 @@ pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 ```
 
 ## Run steamlit app
+Open your dashboard folder path in terminal
 ```
 streamlit run dashboard.py
 ```
