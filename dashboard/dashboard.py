@@ -4,7 +4,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Membaca file CSV menggunakan Pandas
-all_df = pd.read_csv('all_data.csv')
+url = 'https://raw.githubusercontent.com/salsazufar/bikesharing-data-analysis/main/dashboard/all_data.csv'
+all_df = pd.read_csv(url)
 
 # Set seaborn style
 sns.set(style="whitegrid")
