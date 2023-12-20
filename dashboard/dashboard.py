@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Membaca file CSV menggunakan Pandas
-all_df = pd.read_csv('../data/all_data.csv')
+all_df = pd.read_csv('all_data.csv')
 
 # Set seaborn style
 sns.set(style="whitegrid")
