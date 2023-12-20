@@ -2,8 +2,12 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import os
 
-all_df = pd.read_csv('all_data.csv')
+current_directory = os.getcwd()
+file_name = 'all_data.csv'
+file_path = os.path.join(current_directory, file_name)
+all_df = pd.read_csv(file_path)
 
 # Set seaborn style
 sns.set(style="whitegrid")
